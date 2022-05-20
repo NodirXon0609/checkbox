@@ -1,17 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>CheckBox</title>
 
-<!-- Stylesheets -->
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/styles.css">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
+  <main class="main-content">
+    <div class="container">
+      <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+        <fieldset class="form-fieldset">
+          <h1 class="form-heading">Qaysi sport turiga qiziqasiz?</h1>
+          <div class="form-inner">
+            <label class="checkbox-label">
+              <input class="visually-hidden checkbox checkbox-pingpong" type="checkbox" name="ping_pong">
+              <span class="checkbox-control"></span>
+              <span class="checkbox-text">Stol tennisi</span>
+            </label>
+
+            <label class="checkbox-label">
+              <input class="visually-hidden checkbox checkbox-basketball" type="checkbox" name="basketball">
+              <span class="checkbox-control"></span>
+              <span class="checkbox-text">Basketbol</span>
+            </label>
+
+            <label class="checkbox-label">
+              <input class="visually-hidden checkbox checkbox-volleyball" type="checkbox" name="volleyball">
+              <span class="checkbox-control"></span>
+              <span class="checkbox-text">Voleybol</span>
+            </label>
+
+            <label class="checkbox-label">
+              <input class="visually-hidden checkbox checkbox-icehockey" type="checkbox" name="ice_hockey" disabled>
+              <span class="checkbox-control"></span>
+              <span class="checkbox-text">Hokkey</span>
+            </label>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </main>
 
   <script src="js/main.js"></script>
 </body>
